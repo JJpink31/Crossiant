@@ -1,6 +1,26 @@
+:root{
+--primary-color:rgb(195, 132, 14);
+}
 body{
     background: bisque;
+    margin: 0 auto;
+    color: var(--primary-color);
+}
+.container{
+    background: rgba(255, 255, 255, 0.7);
+    border: 5px dashed rgb(254, 243, 229);
+    padding: 20px;
+}
+#homepage-body{
+    background-image: url("https://images.unsplash.com/photo-1565182363525-f95648bbeee0?auto=format&fit=crop&q=80&w=1170&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+    
 }
 footer a {
     margin: 0 10px;
+    color:rgb(153, 118, 21);
+}
+
+.homepage-footer a{
+    color:var(--primary-color);
 }
